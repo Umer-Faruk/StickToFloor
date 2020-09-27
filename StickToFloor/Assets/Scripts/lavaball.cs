@@ -20,7 +20,7 @@ public class lavaball : MonoBehaviour
     private void OnCollisionEnter(Collision collision) {
         if(collision.gameObject.tag == "lava"){
             Debug.Log("collide with lava");
-            transform.position = new Vector3(165,184,Random.Range(-496,-478));
+            transform.position = new Vector3(-14,2,Random.Range((float)-3.29,(float)4.67));
         }
     }
 }
